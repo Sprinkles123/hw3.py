@@ -88,7 +88,20 @@ def convertToDNF(n,table):
     """
     # TODO: Finish this function!
     # YOUR CODE HERE
-
+    listy = []
+    print(n)
+    print(table)
+    for tuple in table:
+        if (tuple[n]) == True;
+            added=list()
+            for i in range(n):
+                if (tuple[i])==True:
+                    added.append("x" + str(i))
+                else:
+                    added.append("nx" + str(i))
+                added.append("^")
+            listy.append(added)
+    print listy
 if __name__ == '__main__':
     '''Nothing IN THIS IF-BLOCK will be executed by the autograder ---
         use this space to grascetest your code!'''
